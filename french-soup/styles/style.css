@@ -1,9 +1,82 @@
-/*Some necessary adjustments*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
 h1, body, html, main {
   margin: 0;
 }
-/*Import the font and set the default size*/
 html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+    font-family: 'Open Sans', sans-serif;
+    color: dimgray;
+    font-size: 18px;
 }
+header {
+    height: 600px;
+    width: 100%;
+    background-image: url(../images/soup.jpg);
+    background-position: center center;    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 300%;
+        }
+
+h3 {
+    font-style: bold;
+    font-size: 1rem;
+}
+hr {
+  width: 90%;
+}
+.clear {
+    clear: both;
+}
+.info {
+    margin: 10px;
+    padding-bottom: 10px;
+    width: 60px;
+    width: 50%;
+    font-weight: 200;
+    height:auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.intro {
+    padding: 10px 40px 10px 40px;
+    margin: 10px;
+    text-align: justify;
+    font-size: medium;
+}
+.ingredients {
+    padding: 10px 40px 10px 40px;
+    margin: 10px;
+    text-align: justify;
+ 
+}
+.directions {
+    padding: 10px 40px 10px 40px;
+    margin: 10px;
+    text-align: justify;
+}
+.bloq {
+    font-size: small;
+    text-align: left;
+}
+div img {
+    width: 300px;
+}
+ul {
+    list-style: none;
+    font-size: small;
+    padding: 0px;
+}
+
