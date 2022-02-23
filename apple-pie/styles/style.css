@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600&display=swap');
+html,
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: dimgray;
+    font-size: 10px;
+}
+header {
+    height: 600px;
+    width: 100%;
+    background-image: url(../images/apple-pie.jpg);
+    background-position: center center;    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 600%;
+        }
+
+h3 {
+    font-style: bold;
+    font-size: 2rem;
+}
+.clear {
+    clear: both;
+}
+.info {
+    margin: 10px;
+    padding-bottom: 10px;
+    width: 60px;
+    width: 50%;
+    font-weight: 200;
+    height:auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.intro {
+    padding: 10px 20px 10px 20px;
+    margin: 10px;
+    text-align: justify;
+    font-size: large;
+}
+.ingredients {
+    padding: 10px 20px 10px 20px;
+    margin: 10px;
+    text-align: justify;
+ 
+}
+.directions {
+    padding: 10px 20px 10px 20px;
+    margin: 10px;
+    text-align: justify;
+}
+.bloq {
+    font-size: 16px;
+    text-align: left;
+}
+div img {
+    width: 300px;
+}
+ul {
+    list-style: none;
+    font-size: medium;
+}
